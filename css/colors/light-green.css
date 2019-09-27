@@ -1,0 +1,55 @@
+/*
+* Light-green :#8bc34a
+*/
+
+
+.navbar,
+.btn-red,
+.team-content
+{
+    background-color: #8bc34a!important;
+}
+
+.cd-headline,
+.f-cursive,
+.blog-content,
+.info-content .info-icon i,
+.md-form label.active {
+    color: #8bc34a!important;
+}
+
+.seprator-line,
+.btn-red {
+    border-color: #8bc34a!important;
+}
+
+.contact-btn i,
+#preloader span {
+    background: #8bc34a!important;
+}
+
+.form-control:focus {
+    background-image: linear-gradient(#8bc34a, #8bc34a), linear-gradient(#8bc34a, #8bc34a)!important;
+}
+@keyframes preloader {
+    0% {
+        height: 5px;
+        transform: translateY(0px);
+        background: #8bc34a!important;
+    }
+    25% {
+        height: 30px;
+        transform: translateY(15px);
+        background: #fff!important;
+    }
+    50% {
+        height: 5px;
+        transform: translateY(0px);
+        background: #8bc34a!important;
+    }
+    100% {
+        height: 5px;
+        transform: translateY(0px);
+        background: #8bc34a!important;
+    }
+}

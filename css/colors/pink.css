@@ -1,0 +1,54 @@
+/*
+* Pink : #e91e63
+*/
+
+.navbar,
+.btn-red,
+.team-content
+{
+    background-color: #e91e63!important;
+}
+
+.cd-headline,
+.f-cursive,
+.blog-content,
+.info-content .info-icon i,
+.md-form label.active {
+    color: #e91e63!important;
+}
+
+.seprator-line,
+.btn-red {
+    border-color: #e91e63!important;
+}
+
+.contact-btn i,
+#preloader span {
+    background: #e91e63!important;
+}
+
+.form-control:focus {
+    background-image: linear-gradient(#e91e63, #e91e63), linear-gradient(#e91e63, #e91e63)!important;
+}
+@keyframes preloader {
+    0% {
+        height: 5px;
+        transform: translateY(0px);
+        background: #e91e63!important;
+    }
+    25% {
+        height: 30px;
+        transform: translateY(15px);
+        background: #fff!important;
+    }
+    50% {
+        height: 5px;
+        transform: translateY(0px);
+        background: #e91e63!important;
+    }
+    100% {
+        height: 5px;
+        transform: translateY(0px);
+        background: #e91e63!important;
+    }
+}
